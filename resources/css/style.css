@@ -332,6 +332,13 @@ header .tablet {
   }
 }
 
+/* Mobile */
+@media only screen and (max-width: 450px) { 
+
+  #sign-up-cta .content{
+    width: 100%;
+  }
+
 /* Features Section */
 
 #features-section {
