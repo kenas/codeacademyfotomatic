@@ -319,6 +319,10 @@ header .tablet {
     height: 20rem;
   }
 
+  #sign-up-cta {
+    padding: 0;
+  }
+
   #sign-up-cta h1 {
     font-size: 2.25rem;
   }
