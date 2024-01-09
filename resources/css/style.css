@@ -124,7 +124,7 @@ header .tablet {
 
   header .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
   }
 
@@ -314,7 +314,7 @@ header .tablet {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 760px) {
   #sign-up-section {
     height: 20rem;
   }
@@ -335,9 +335,10 @@ header .tablet {
 /* Mobile */
 @media only screen and (max-width: 450px) { 
 
-  #sign-up-cta .content{
-    width: 100%;
+  #sign-up-cta .content {
+     width: auto;
   }
+}
 
 /* Features Section */
 
